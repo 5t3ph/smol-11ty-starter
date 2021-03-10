@@ -1,0 +1,30 @@
+{
+  "name": "tiny-11ty-starter",
+  "version": "1.0.0",
+  "description": "Extremely minimal Eleventy starter to kickstart a simple multi-page site / a nearly opinionless foundation to continue building on",
+  "main": "index.html",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5t3ph/tiny-11ty-starter.git"
+  },
+  "keywords": [
+    "11ty",
+    "11ty-starter",
+    "eleventy",
+    "eleventy-starter",
+    "eleventy-sample",
+    "11ty-template"
+  ],
+  "author": "5t3ph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5t3ph/tiny-11ty-starter/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}

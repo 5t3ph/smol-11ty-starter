@@ -1,0 +1,19 @@
+{% set currentPage %}{{ page.fileSlug }}{% endset %}
+
+<nav>
+  <ul role="list">
+    <li>
+      <a {% if currentPage === '' %}aria-current="page"{% endif %} href="/">Home</a>
+    </li>
+
+    {% for page in collections.pages %}
+    <li>
+      <a 
+        {% if currentPage === page.fileSlug %}aria-current="page"{% endif %} 
+        href="{{ page.url }}">
+          {{ page.data.title }}
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</nav>

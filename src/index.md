@@ -1,6 +1,11 @@
-# Tiny Eleventy Starter
+---
+title: Tiny Eleventy Starter
+layout: page.njk
+---
 
-> Extremely minimal Eleventy starter to kickstart a simple multi-page site / a nearly opinionless foundation to continue building on.
+## {{ meta.siteDescription }}
+
+Created by Stephanie Eckles - [@5t3ph](https://twitter.com/5t3ph) - author of [11ty.Rocks](https://11ty.rocks), [ModernCSS.dev](https://moderncss.dev), and [SmolCSS.dev](https://smolcss.dev).
 
 ### Quick Start
 
@@ -22,9 +27,21 @@
 - Enjoy written tutorials? Start with my post on [creating your first Eleventy website](https://11ty.rocks/posts/create-your-first-basic-11ty-website/)
 - Enjoy video tutorials? Learn to [build an Eleventy site including Sass](https://5t3ph.dev/learn-11ty) in my 20 minute egghead course
 
-## Where to go from here?
+## Resources For Building With Eleventy
 
 - You may want to swap to [use Sass instead of CSS](https://github.com/5t3ph/11ty-sass-skeleton) and include minifying/autoprefixing (you can copy the relevant bits from the config and the package scripts/dependencies)
 - Review [additional common config customizations](https://11ty.rocks/eleventyjs/)
 - Check out some [quick tips](https://11ty.rocks/tips/) to learn more about using Eleventy's features
 - Add automatically generated [social images with my plugin](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-social-images)
+
+### Icing chocolate fruitcake bear claw bonbon
+
+Icing chocolate fruitcake bear claw bonbon. Ice cream tiramisu sesame snaps marshmallow carrot cake sesame snaps. Powder jelly-o soufflé powder dragée caramels jelly-o chupa chups. Sweet roll chocolate cake candy canes wafer lollipop caramels chupa chups. Wafer powder donut powder croissant donut ice cream macaroon fruitcake. Donut powder fruitcake bear claw liquorice gingerbread toffee. Powder biscuit marzipan.
+
+<!-- Provided within _data/catpic.js -->
+
+![cat of the day]({{ catpic }})
+
+Macaroon cheesecake cupcake cotton candy jujubes cupcake. Chocolate sweet sugar plum candy dessert sesame snaps pie. Chocolate cake carrot cake cake macaroon cotton candy brownie tart sugar plum. Icing chocolate caramels macaroon marzipan cookie candy. Sugar plum pie sweet roll chocolate bar chocolate cake jujubes jelly beans lollipop. Caramels muffin toffee bonbon icing wafer toffee tiramisu lemon drops. Sweet jujubes fruitcake bonbon cake donut. Liquorice sweet roll bonbon chocolate bar candy canes marshmallow biscuit chocolate cake marshmallow.
+
+Cupcake pudding oat cake. Halvah candy canes gingerbread tiramisu chupa chups lollipop. Toffee toffee cake. Jelly beans jelly beans chupa chups liquorice dessert donut caramels. Cake caramels jelly-o cake. Cake sweet donut soufflé pudding pie fruitcake gummies.
