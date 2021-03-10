@@ -1,15 +1,15 @@
-{% set currentPage %}{{ page.fileSlug }}{% endset %}
+{% set currentUrl %}{{ page.url }}{% endset %}
 
 <nav>
   <ul role="list">
     <li>
-      <a {% if currentPage === '' %}aria-current="page"{% endif %} href="/">Home</a>
+      <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Home</a>
     </li>
 
     {% for page in collections.pages %}
     <li>
       <a 
-        {% if currentPage === page.fileSlug %}aria-current="page"{% endif %} 
+        {% if currentUrl === page.url %}aria-current="page"{% endif %} 
         href="{{ page.url }}">
           {{ page.data.title }}
       </a>
