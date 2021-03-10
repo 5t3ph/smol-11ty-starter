@@ -1,5 +1,5 @@
 ---
-title: Tiny Eleventy Starter
+title: Smol Eleventy Starter
 layout: page.njk
 ---
 
@@ -9,7 +9,7 @@ Created by Stephanie Eckles - [@5t3ph](https://twitter.com/5t3ph) - author of [1
 
 ### Quick Start
 
-1. [Generate a repo from this template](https://github.com/5t3ph/tiny-11ty-starter/generate) which will copy this project into your own new repo. _Note: You must be signed in to GitHub for this link to work_, else [visit the repo directly](https://github.com/5t3ph/tiny-11ty-starter/).
+1. [Generate a repo from this template](https://github.com/5t3ph/smol-11ty-starter/generate) which will copy this project into your own new repo. _Note: You must be signed in to GitHub for this link to work_, else [visit the repo directly](https://github.com/5t3ph/smol-11ty-starter/).
 
 1. Once cloned, run `npm install` to install 11ty. Then run `npm start` to run 11ty in `serve` mode which will create a local server including hot-reload via BrowserSync.
 
